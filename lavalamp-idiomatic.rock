@@ -1,21 +1,19 @@
-View takes Wax
-If Wax ain't nothing
-Say Wax
+( emit a value or a blank line )
+Prophet takes the word
+Silence says ""
+If the word ain't nothing
+Say the word
 Else
-Say ""
+Whisper Silence
 
 Give back nothing
 
-Thousand is a thickskull cephalopod underearth 
-Bob's on board ship
-Carol is now swimming upstream
-Ted is drunk at noon
-Alice is on the town
+( initialize the random percentages )
+Fire is trancelike. Dancing to nothing
+Water is incubating. Thoughts slowly growing
+Ice is reflective. Gyrating madly
+Earth was unforeseen. No considerations given
 
-Put Bob over Thousand into Bob
-Put Carol over Thousand into Carol
-Put Ted over Thousand into Ted
-Put Alice over Thousand into Alice
 
 Put 45 into Warming
 Put 60 into Moving
@@ -27,16 +25,16 @@ Put Thousand into Bottom
 If my timer is lower than Warming
   my time is wasted
 Else
-Put Bottom of Bob into Lower
+Put Bottom of Fire into Lower
 Put Bottom without Lower into Bottom
-Put Bottom of Carol into Middle
+Put Bottom of Water into Middle
 Put Bottom without Middle into Bottom
 If my timer is lower than Moving
   my time is wasted
 Else
-Put Bottom of Ted into Upper
+Put Bottom of Ice into Upper
 Put Bottom without Upper into Bottom
-Put Bottom of Alice into Top
+Put Bottom of Earth into Top
 Put Bottom without Top into Bottom
 
 Say "-----"
