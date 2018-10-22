@@ -1,0 +1,51 @@
+View takes Wax
+If Wax ain't nothing
+Say Wax
+Else
+Say ""
+
+Give back nothing
+
+Thousand is a thickskull cephalopod underearth 
+Bob's on board ship
+Carol is now swimming upstream
+Ted is drunk at noon
+Alice is on the town
+
+Put Bob over Thousand into Bob
+Put Carol over Thousand into Carol
+Put Ted over Thousand into Ted
+Put Alice over Thousand into Alice
+
+Put 45 into Warming
+Put 60 into Moving
+Put 70 into Ready
+Put 70 into my timer
+
+Put Thousand into Bottom
+
+If my timer is lower than Warming
+  my time is wasted
+Else
+Put Bottom of Bob into Lower
+Put Bottom without Lower into Bottom
+Put Bottom of Carol into Middle
+Put Bottom without Middle into Bottom
+If my timer is lower than Moving
+  my time is wasted
+Else
+Put Bottom of Ted into Upper
+Put Bottom without Upper into Bottom
+Put Bottom of Alice into Top
+Put Bottom without Top into Bottom
+
+Say "-----"
+View taking Top
+View taking Upper
+View taking Middle
+View taking Lower
+View taking Bottom
+Say "-----"
+
+
+

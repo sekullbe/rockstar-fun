@@ -1,0 +1,66 @@
+View takes Wax
+If Wax ain't nothing
+Say Wax
+Else
+Say ""
+
+Give back nothing
+
+(Set up the "random" numbers)
+Thousand is a aaaabaaaab aaaabaaaab aaaabaaaab
+(Bob's coming to play)
+(Carol is always swimming upstream)
+(Ted is amazing at monopoly)
+(Alice is on the town)
+Put 100 into Bob
+Put 100 into Carol
+Put 100 into Ted
+Put 100 into Alice
+
+(Make them percentages)
+Put Bob over Thousand into Bob
+Put Carol over Thousand into Carol
+Put Ted over Thousand into Ted
+Put Alice over Thousand into Alice
+
+(Time breakpoints)
+Put 45 into Warming
+Put 60 into Starting
+Put 70 into Ready
+
+("random" minutes value)
+Put 70 into my timer
+
+(set up the five levels of the lamp)
+Put 1000 into Bottom
+Put 0 into Lower
+Put 0 into Middle
+Put 0 into Upper
+Put 0 into Top
+
+If my timer is lower than Warming
+  my time is wasted
+Else
+Put Bottom of Bob into Lower
+Put Bottom without Lower into Bottom
+Put Bottom of Carol into Middle
+Put Bottom without Middle into Bottom
+If my timer is lower than Starting
+  my time is wasted
+Else
+Put Bottom of Ted into Upper
+Put Bottom without Upper into Bottom
+Put Bottom of Alice into Top
+Put Bottom without Top into Bottom
+
+( finally, print them all out )
+Say "-----"
+View taking Top
+View taking Upper
+View taking Middle
+View taking Lower
+View taking Bottom
+Say "-----"
+
+
+
