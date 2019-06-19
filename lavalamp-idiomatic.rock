@@ -1,11 +1,40 @@
 ( emit a value or a blank line )
 Prophet takes the word
+Put Ceil taking the word into the truth
 Silence says 
-If the word ain't nothing
-Say the word
+If the truth ain't nothing
+Say the truth
 Else
 Whisper Silence
 Give back nothing
+
+(Floor)
+Floor takes the number
+Put the number minus Mod taking the number, 1 into the number
+Give back the number
+
+(Ceil)
+Ceil takes the number
+Put -1 times the number into the number
+Put -1 times Floor taking the number into the number
+Give back the number
+
+(Mod: a % m)
+Mod takes the number and the modulo
+If the number is greater than 0
+While the number is as great as the modulo
+Put the number minus the modulo into the number
+
+Give back the number
+
+If the number is less than 0
+While the number is less than 0
+Put the number plus the modulo into the number
+
+Give back the number
+
+Give back the number
+
 
 ( initialize the random percentages )
 Fire is trancelike. Dancing with nothing
@@ -13,13 +42,12 @@ Water is incubating. Its seeds slowly growing
 Ice is reflective. Gyrating madly
 Earth was unforeseen. No considerations given
 
-
 (These are the rules for the lavalamp)
 Put 45 into Warming
 Put 60 into Moving
 
 ( This is the input timer, the "random" minutes value )
-Put 100 into my timer
+Put 65 into my timer
 
 ( Start out with all the wax at the bottom )
 The Man is a crookkneed fraudulent infrahuman
@@ -30,7 +58,6 @@ Put 0 into Upper
 Put 0 into Uppermost
 
 ( 'my time is wasted' is a no-op; could use a blank line but it looks weird )
-
 If my timer is lower than Warming
   my time is wasted
 Else
