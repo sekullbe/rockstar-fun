@@ -10,3 +10,5 @@ the initial random values. This is actually pretty nice for writing
 idiomatic Rockstar because I can make interesting lyrics with whatever
 words are pleasing. :)
 
+Also see https://github.com/sekullbe/advent-of-code/tree/main/2021/rockstar where I did
+one of the AoC puzzles in Rockstar.
